@@ -1,7 +1,18 @@
 aid: clearvector
 name: Clearvector
-description: Clearvector is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ClearVector is an identity-driven detection and response platform for cloud
+  production environments. It attributes every action in real time to human,
+  non-human, and third-party identities across AWS, GCP, and Azure, threading
+  together activity across GitHub, CI/CD pipelines, cloud control planes, and
+  runtime (EC2, Lambda, containers). Per-customer predictive behavioral models
+  surface risky behavior, and one-click isolation contains compromised
+  identities and resources without disrupting production. Offered as SaaS, an
+  Enterprise plan, and a ClearVector Private SaaS deployment for teams that need
+  complete infrastructure control. Backed by Menlo Ventures. Surfaced as a
+  portfolio-company lead and enriched by the API Evangelist pipeline; ClearVector
+  publishes no public developer API, OpenAPI, or documentation surface — the
+  product is delivered through a login-gated application at app.clearvector.com.
 url: https://raw.githubusercontent.com/api-evangelist/clearvector/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/68b0a9e33432bb72265045ac/691791a1fe9fb0f0556a2db8_OGI%20-CV.png
 tags:
 - Company
+- Security
+- Cloud Security
+- Detection and Response
+- Identity
+- Threat Detection
+- Incident Response
+- Cloud
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,30 @@ maintainers:
 common:
 - type: Website
   url: https://clearvector.com
+- type: Blog
+  url: https://clearvector.com/blog
+- type: Pricing
+  url: https://clearvector.com/pricing
+- type: SignUp
+  url: https://app.clearvector.com/
+- type: Login
+  url: https://app.clearvector.com/
+- type: Support
+  url: https://clearvector.com/company/contact
+- type: TermsOfService
+  url: https://clearvector.com/terms
+- type: PrivacyPolicy
+  url: https://clearvector.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/clearvector
+- type: Security
+  url: https://clearvector.com/security
+- type: VulnerabilityDisclosure
+  url: security/clearvector-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/clearvector-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
